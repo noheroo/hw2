@@ -55,7 +55,6 @@ public class Main {
         System.out.println("Если худеть по "+weightLossDay1+" г в день, потребуется "+quantityDays1+" дней, чтобы похудеть на "+minusWeightKilo+" кг");
         System.out.println("Если худеть по "+weightLossDay2+" г в день, потребуется "+quantityDays2+" дней, чтобы похудеть на "+minusWeightKilo+" кг");
         System.out.println("Если в среднем худеть на "+meanMinusWeight+" г в день, то в среднем понадобится примерно "+meanDay+" дней для похудания \n");
-        //не понял, где надо было применить определение остатка от деления
 
         //fifth exercise
         int salaryMasha=67760;
@@ -81,6 +80,30 @@ public class Main {
         System.out.println("№5. ЗП");
         System.out.println("Маша будет получать "+newSalaryMasha+" руб в месяц. Годовой доход выростет на "+differenceMasha+" руб");
         System.out.println("Маша будет получать "+newSalaryDenis+" руб в месяц. Годовой доход выростет на "+differenceDenis+" руб");
-        System.out.println("Маша будет получать "+newSalaryChristina+" руб в месяц. Годовой доход выростет на "+differenceChristina+" руб");
+        System.out.println("Маша будет получать "+newSalaryChristina+" руб в месяц. Годовой доход выростет на "+differenceChristina+" руб \n");
+
+        //extra hw
+        //№6
+        int a=12;
+        int b=27;
+        int c=44;
+        int d=15;
+        int e=9;
+        int result=a*(b+(c-d*e));
+        result=-result;
+        System.out.println("extra hw. №6. Инвертированное значение "+result+"\n");
+
+        //№7
+        int f=5;
+        int g=7;
+        g=f*g/g;
+        f=(g*g+g+g)/g;
+        System.out.println("extra hw. №7. f="+f+" ,g="+g+"\n");
+
+        //№8
+        int j=428;
+        int k=j%100;
+        k/=10;
+        System.out.println("extra hw. №8. Цифра, которая находится в центре числа "+j+" это "+k+"\n");
     }
 }
