@@ -13,6 +13,9 @@ public class Main {
         float litersWater=5.6f;
         double numberPi=3.14159265358979323;
 
+        boolean lie=true;
+        char button='$';
+
         //second exercise
         float boxer1=78.2f;
         float boxer2=82.7f;
